@@ -1,4 +1,8 @@
-# :tv:  Video
+# :tv: Video
+- [Martes 30 Ago - Microservicios I](https://drive.google.com/file/d/1u9Xd8SnqGWnI-ZYZSeX97uNTVajE_lk-/view?usp=sharing)
+- 📺 [Grabacion Martes 30 Ago](https://drive.google.com/file/d/1RmlfJ3kJwqWdpxLs9ez_rogsEULsomsT/view?usp=sharing)
+- [Miércoles 31 Ago - Microservicios II](https://drive.google.com/file/d/1u9Xd8SnqGWnI-ZYZSeX97uNTVajE_lk-/view?usp=sharing)
+- 📺 [Grabacion Miércoles 31 Ago](https://drive.google.com/file/d/1P9yOxAuO0ICVepcYx5QtyOlNkr8HokEw/view?usp=sharing)
 
 # :computer:  Actividades
 
@@ -138,7 +142,7 @@ docker stop trusting_beaver
 ### 12. Volvemos a instanciar, ahora exponiendo el puerto en el que está corriendo la aplicación
 
 ``` 
-docker run --publish 5000:8080 python-docker
+docker run --publish 8080:5000 python-docker
 ```
 
 Volvemos a probar la aplicacion
@@ -157,7 +161,7 @@ docker stop trusting_beaver
 ### 12. Ejecutamos el contenedor en modo deatached
 
 ``` 
-docker run -d -p 5000:8080 python-docker
+docker run -d -p 8080:5000 python-docker
 ```
 
 En este modo la sesion de terminal no quedará asociada al proceso de docker ejecutando el contenedor
@@ -187,7 +191,7 @@ docker rm trusting_beaver modest_khayyam lucid_greider
 ### 15. Ejecutamos el contenedor asignandole un nombre y un parametro de autolimpieza
 
 ``` 
-docker run --rm -d -p 5000:8080 --name springboot-server java-docker
+docker run --rm -d -p 8080:5000 --name springboot-server java-docker
 ```
 
 En este punto podemos detener el contenedor
