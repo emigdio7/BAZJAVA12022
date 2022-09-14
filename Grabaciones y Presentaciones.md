@@ -4,35 +4,35 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 # Semana 1
 - [Lunes 29 Agosto - GIT](https://drive.google.com/file/d/1_8IvmSu4LQeKWfdeZWZ2N-awlzkzL3PB/view?usp=sharing)
 - 📺 [Grabacion Lunes 29 Agosto](https://drive.google.com/file/d/1Bn4dx9wmRW4nHjMDri_cLIsjuvqJYIOl/view?usp=sharing)
-- [Martes 30 Ago - Microservicios I](https://drive.google.com/file/d/1u9Xd8SnqGWnI-ZYZSeX97uNTVajE_lk-/view?usp=sharing)
+- [Martes 30 Ago - Microservicios I](https://drive.google.com/file/d/1FLXT26CZvrmMA8QgOZIslYWPFAijBZoR/view?usp=sharing)
 - 📺 [Grabacion Martes 30 Ago](https://drive.google.com/file/d/1RmlfJ3kJwqWdpxLs9ez_rogsEULsomsT/view?usp=sharing)
-- [Miércoles 31 Ago - Microservicios II](https://drive.google.com/file/d/1u9Xd8SnqGWnI-ZYZSeX97uNTVajE_lk-/view?usp=sharing)
+- [Miércoles 31 Ago - Microservicios II](https://drive.google.com/file/d/1FLXT26CZvrmMA8QgOZIslYWPFAijBZoR/view?usp=sharing)
 - 📺 [Grabacion Miércoles 31 Ago](https://drive.google.com/file/d/1P9yOxAuO0ICVepcYx5QtyOlNkr8HokEw/view?usp=sharing)
-- [Jueves 1 Sep - RestAPIS](https://drive.google.com/file/d/1FLXT26CZvrmMA8QgOZIslYWPFAijBZoR/view?usp=sharing)
+- [Jueves 1 Sep - RestAPIS](https://drive.google.com/file/d/1tavRzBdVIsECrnyB3_JEmTWcMZSV8fRm/view?usp=sharing)
 - 📺 [Grabacion Jueves 1 Sep](https://drive.google.com/file/d/1NJPYc0Tz0epoVn3oY-1EhF7UXTO2B6_8/view?usp=sharing)
 - [Viernes 2 Sep - Serverless](https://drive.google.com/file/d/1u9Xd8SnqGWnI-ZYZSeX97uNTVajE_lk-/view?usp=sharing)
 - 📺 [Grabacion Viernes 2 Sep](https://drive.google.com/file/d/1dbQLH7TXdFLvPTr3Y6I1nkAexKMGivmS/view?usp=sharing)
 
 # Semana 2
-- [Lunes 5 Sep/Kafka I](https://drive.google.com/file/d/1il7zSjsAroRHCxtNF9eSbAY7oqb8XjcM/view?usp=sharing)
+- [Lunes 5 Sep/Kafka I](https://drive.google.com/file/d/1SARKWTg_4_gFFomos9PsOTOUUwmfiVF9/view?usp=sharing)
 - 📺 [Grabacion Lunes 5 Sep](https://drive.google.com/file/d/1u5IXK8yrF5wM-EyXxdG8ez7_r-nsBtu6/view?usp=sharing)
 - [Martes 6 Sep/Kafka II]
-- 📺 [Grabacion Martes 6 Sep]
-- [Miércoles 7 Sep/MongoDB I]
-- 📺 [Grabacion Miércoles 7 Sep]
-- [Jueves 8 Sep/MongoDB II]
-- 📺 [Grabacion Jueves 8 Sep]
-- [Viernes 9 Sep/Clean Code]
-- 📺 [Grabacion Viernes 9 Sep]
+- 📺 [Grabacion Martes 6 Sep](https://drive.google.com/file/d/1rc8I5prIeLWbk6NkB2jR6dxl24lQDs8f/view?usp=sharing)
+- [Miércoles 7 Sep/MongoDB I](https://drive.google.com/file/d/1k1z-d4NDT-JLexr5aDWUh7lxQvMRHcpI/view?usp=sharing)
+- 📺 [Grabacion Miércoles 7 Sep](https://drive.google.com/file/d/1BHnziMTL7Y8fCAY1Zjp7qo-LypAIN5fM/view?usp=sharing)
+- [Jueves 8 Sep/MongoDB II](https://drive.google.com/file/d/17V-G4R7STZQAWfIw6oxpBUnetZJVUCdp/view?usp=sharing)
+- 📺 [Grabacion Jueves 8 Sep](https://drive.google.com/file/d/1EhESoYcEOHYJLo2aC03hi-5ifLMZCSej/view?usp=sharing)
+- [Viernes 9 Sep/Clean Code](https://drive.google.com/file/d/1e_ZxYahEZwA77896Jc64ZeGClnF5H2tb/view?usp=sharing)
+- 📺 [Grabacion Viernes 9 Sep](https://drive.google.com/file/d/1lH2K-t-ufJF1BHgiRCZhAwcE-YBABcNI/view?usp=sharing)
 
 # Semana 3
-- [Lunes 12 Sep/Java I]
-- 📺 [Grabacion Lunes 12 Sep]
-- [Martes 13 Sep/Java II]
+- [Lunes 12 Sep/Java I](https://drive.google.com/file/d/11SlfwloDlvcFRLEwzsIauSkz8gUqipk1/view?usp=sharing)
+- 📺 [Grabacion Lunes 12 Sep](https://drive.google.com/file/d/1qTAfLVtMNNUUtxaEM7BsR3ZE81RwiSfu/view?usp=sharing)
+- [Martes 13 Sep/Java II](https://drive.google.com/file/d/1IOwSI4Rd4WKGBuPWY9Vwqt_wZUwvIJJL/view?usp=sharing)
 - 📺 [Grabacion Martes 13 Sep]
-- [Miércoles 14 Sep/Java III]
+- [Miércoles 14 Sep/Java III](https://drive.google.com/file/d/1AF4P6Lt-Nz2MCn51iE9i0C2WWpwtDCIa/view?usp=sharing)
 - 📺 [Miércoles 14 Sep]
-- [Jueves 15 Sep/Java IV]
+- [Jueves 15 Sep/Java IV](https://drive.google.com/file/d/1t76rDsiiRjKvib1hzYxi2UMDdzZa3rfB/view?usp=sharing)
 - 📺 [Grabacion Jueves 15 Sep]
 
 
