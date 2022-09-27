@@ -29,28 +29,28 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Lunes 12 Sep/Java I](https://drive.google.com/file/d/11SlfwloDlvcFRLEwzsIauSkz8gUqipk1/view?usp=sharing)
 - 📺 [Grabacion Lunes 12 Sep](https://drive.google.com/file/d/1qTAfLVtMNNUUtxaEM7BsR3ZE81RwiSfu/view?usp=sharing)
 - [Martes 13 Sep/Java II](https://drive.google.com/file/d/1IOwSI4Rd4WKGBuPWY9Vwqt_wZUwvIJJL/view?usp=sharing)
-- 📺 [Grabacion Martes 13 Sep]
+- 📺 [Grabacion Martes 13 Sep](https://drive.google.com/file/d/1yi0rSdZOUzKczLKhUaO2q3UVISNNYO79/view?usp=sharing)
 - [Miércoles 14 Sep/Java III](https://drive.google.com/file/d/1AF4P6Lt-Nz2MCn51iE9i0C2WWpwtDCIa/view?usp=sharing)
-- 📺 [Miércoles 14 Sep]
+- 📺 [Miércoles 14 Sep](https://drive.google.com/file/d/1poTpD6wSberqYySWREbv0Pf4AVw5Pcum/view?usp=sharing)
 - [Jueves 15 Sep/Java IV](https://drive.google.com/file/d/1t76rDsiiRjKvib1hzYxi2UMDdzZa3rfB/view?usp=sharing)
-- 📺 [Grabacion Jueves 15 Sep]
+- 📺 [Grabacion Jueves 15 Sep](https://drive.google.com/file/d/1nqfQvmoGXr_OSTbS06UsQmrPLDa0ssgv/view?usp=sharing)
 
 
 # Semana 4
-- [Lunes 19 Sep/Java VI]
-- 📺 [Lunes 19 Sep]
-- [Martes 20 Sep/Java VII]
+- [Lunes 19 Sep/Java VI](https://drive.google.com/file/d/1t3_gZphbF_Q0ey_wzJteAso_SBA0BgM0/view?usp=sharing)
+- 📺 [Lunes 19 Sep](https://drive.google.com/file/d/1Zovq1OVWmLrMwKU7RMa1JVvz7cTgz_8g/view?usp=sharing)
+- [Martes 20 Sep/Java VII](https://drive.google.com/file/d/1dCG-dtgnpMLE6dqOVQzZFzjj1zMj0z09/view?usp=sharing)
 - 📺 [Grabacion Martes 20 Sep]
-- [Miércoles 21 Sep/Java VIII]
+- [Miércoles 21 Sep/Java VIII](https://drive.google.com/file/d/1ZzU6p-VI0PfHyBACaldkqd3zmrbLK4Un/view?usp=sharing)
 - 📺 [Miércoles 21 Sep]
-- [Jueves 22 Sep/Java IX]
+- [Jueves 22 Sep/Java IX](https://drive.google.com/file/d/1YUK2ywFjnYR24BYMKlajvPteyKBAFjTc/view?usp=sharing)
 - 📺 [Grabacion Jueves 22 Sep]
 - [Viernes 23 Sep/Java X]
-- 📺 [Viernes 23 Sep]
+- 📺 [Viernes 23 Sep](https://drive.google.com/file/d/1Pd_mKSqhxWo5Adl2TgbeFWH60X5GFOd-/view?usp=sharing)
 
 # Semana 5
 - [Lunes 26 Sep/Spring Boot I]
-- 📺 [Lunes 26 Sep]
+- 📺 [Lunes 26 Sep](https://drive.google.com/file/d/1NXrc5KZrl0OYhtISBVLr-ckvyR-nEFi_/view?usp=sharing)
 - [Martes 27 Sep/Spring Boot II]
 - 📺 [Grabacion Martes 27 Sep]
 - [Miércoles 28 Sep/Spring Boot III]
