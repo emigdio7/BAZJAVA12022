@@ -1,177 +1,43 @@
-# Spring Boot - Anotaciones
-Recursos y pasos importantes para el curso
+package com.wizeline.maven.learningjava;
 
-# :computer:  Actividades
+import java.io.IOException;
+import java.io.OutputStream;
+import java.net.InetSocketAddress;
+import java.net.URI;
+import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
+import java.time.Duration;
+import java.time.Instant;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.function.Function;
+import java.util.logging.Logger;
+import java.util.stream.Collectors;
 
-## Pre-requisitos de la sesión en vivo :exclamation:
+import org.json.JSONArray;
+import org.json.JSONObject;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 
-Para realizar este curso es importante tener instalado los siguientes programas::
-* [JDK 11](https://www.oracle.com/java/technologies/downloads/)
-* [Intellij Idea Community](https://www.jetbrains.com/idea/download/#section=windows)
-* [Maven](https://maven.apache.org/download.cgi)
+import static com.wizeline.maven.learningjava.utils.Utils.isDateFormatValid;
+import static com.wizeline.maven.learningjava.utils.Utils.isPasswordValid;
 
-## Java línea de comando
-Una vez que JDK y MAVEN sean instalados y configurados, procederemos a validar que este bien instalado para comenzar con la actividad.
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.sun.net.httpserver.HttpServer;
+import com.wizeline.maven.learningjava.config.EndpointBean;
+import com.wizeline.maven.learningjava.model.BankAccountDTO;
+import com.wizeline.maven.learningjava.model.ResponseDTO;
+import com.wizeline.maven.learningjava.model.UserDTO;
+import com.wizeline.maven.learningjava.service.BankAccountService;
+import com.wizeline.maven.learningjava.service.BankAccountServiceImpl;
+import com.wizeline.maven.learningjava.service.UserService;
+import com.wizeline.maven.learningjava.service.UserServiceImpl;
+import com.wizeline.maven.learningjava.utils.exceptions.ExcepcionGenerica;
 
-### PASO 1: Validar entorno
-Abrimos una terminal y validamos si reconoce nuestra versión de Java:
-
-``` bash
-# Iniciamos validando que nuestra consola reconosca la versión de Java
-
-jonathan.torres@Jonathans-MacBook-Pro LearningJava1.2 % java -version
-java version "11.0.15" 2022-04-19 LTS
-Java(TM) SE Runtime Environment 18.9 (build 11.0.15+8-LTS-149)
-Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.15+8-LTS-149, mixed mode)
-
-```
-
-Ahora desde una terminal y validamos si reconoce nuestra versión de Maven:
-
-``` bash
-# Iniciamos validando que nuestra consola reconosca la versión de Java
-
-jonathan.torres@Jonathans-MacBook-Pro BAZJAVA12022 % mvn -version
-Apache Maven 3.8.5 (3599d3414f046de2324203b78ddcf9b5e4388aa0)
-Maven home: /Users/jonathan.torres/Open/apache-maven-3.8.5
-Java version: 11.0.15, vendor: Oracle Corporation, runtime: /Library/Java/JavaVirtualMachines/jdk-11.0.15.jdk/Contents/Home
-Default locale: en_MX, platform encoding: UTF-8
-OS name: "mac os x", version: "12.3.1", arch: "x86_64", family: "mac"
-jonathan.torres@Jonathans-MacBook-Pro BAZJAVA12022 %
-```
-
-## Temario Día 2
-
-### Definicion de anotacion ConfigurationProperties
-
-Consumo de los valores de los properties files en un Componente
-
-### Definicion de Bean y Component
-
-Función e implementación de un Componente y de un Bean de una Clase Servicio en LearningJavaApplication
-
-### Uso de la anotacion Validated
-
-Para fijar constraints a nivel de grupo/clase
-
-
-## Practica
-La practica y ejercicios las podemos encontrar en el directorio de learningjava
-
-### A continuación, se listaran los pasos para a seguir para la actividad de este módulo.
-
-1. Comenzamos con descargar/clonar lo que tengamos en el repositorio https://github.com/wizelineacademy/BAZJAVA12022 y nos vamos a la carpeta de (.5/Configuracion/LearningJava), que es el mismo ejercicio del SpringBootApplication dia 1 (Configuracion Inicial)
-
-2. Desde IntelliJ importamos el proyecto maven, abriendo el pom.xml que se ubica bajo la carpeta de LearningJava)
-
-3. Lo primero que tenemos que hacer es definir el bean de servicio (el objeto que es manejado a traves del contenedor de Spring IoC)
-. En este caso el objeto es uno de tipo UserService. Este tiene que ser inyectado antes de nuestra funcion main de
-LearningJavaApplication.Java
-
-``` bash
-@Bean
-public static UserService userService() {
-    return new UserServiceImpl();
-}
-```
-
-4. Asimismo vamos a crear una clase llamada EndpointBean que se encuentre dentro de un nuevo paquete com.wizeline.maven.learningjava.config
-(Noten que el paquete com.wizeline.maven.learningjava ya existe por lo que solo bastaria crear un Package llamado config dentro de com.wizeline.maven.learningjava)
-
-La clase se definiria como lo siguiente:
-
-``` bash
-package com.wizeline.maven.learningjava.config;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
-import org.springframework.validation.annotation.Validated;
-@Component
-@Validated
-@ConfigurationProperties(prefix = "consumers")
-public class EndpointBean {
-	@NotNull
-	@NotBlank
-	private String login;
-	@NotNull
-	@NotBlank
-	private String createUser;
-	@NotNull
-	@NotBlank
-	private String createUsers;
-	@NotNull
-	@NotBlank
-	private String userAccount;
-	@NotNull
-	@NotBlank
-	private String accounts;
-	@NotNull
-	@NotBlank
-	private String accountsGroupByType;
-	public String getLogin() {
-		return login;
-	}
-	public void setLogin(String login) {
-		this.login = login;
-	}
-	public String getCreateUser() {
-		return createUser;
-	}
-	public void setCreateUser(String createUser) {
-		this.createUser = createUser;
-	}
-	public String getCreateUsers() {
-		return createUsers;
-	}
-	public void setCreateUsers(String createUsers) {
-		this.createUsers = createUsers;
-	}
-	public String getUserAccount() {
-		return userAccount;
-	}
-	public void setUserAccount(String userAccount) {
-		this.userAccount = userAccount;
-	}
-	public String getAccounts() {
-		return accounts;
-	}
-	public void setAccounts(String accounts) {
-		this.accounts = accounts;
-	}
-	public String getAccountsGroupByType() {
-		return accountsGroupByType;
-	}
-	public void setAccountsGroupByType(String accountsGroupByType) {
-		this.accountsGroupByType = accountsGroupByType;
-	}
-}
-```
-
-5. La anotacion de ConfigurationProperties en dicha clase tratara de buscar en application.yml el property de consumers y que los atributos
-definidos en la clase de EndpointBean consuman lo que se tiene en el application.yml. Para ello, definamos dos archivos en la carpeta de resources
-llamados application.yml y application-dev.yml cada uno teniendo el siguiente contenido:
-
-``` bash
-consumers:
-  login: '/api/login'
-  createUser: '/api/createUser'
-  createUsers: '/api/createUsers'
-  userAccount: '/api/getUserAccount'
-  accounts: '/api/getAccounts'
-  accountsGroupByType: '/api/getAccountsGroupByType'
-```
-
-6. Definamos el Autowiring en LearningJavaApplication.java
-
-``` bash
-@Autowired
-private EndpointBean endpointBean;
-```
-
-7. Al final nuestro LearningJavaApplication.java debe lucir de la siguiente forma:
-
-``` bash
 @SpringBootApplication
 public class LearningJavaApplication extends Thread {
 
@@ -179,23 +45,26 @@ public class LearningJavaApplication extends Thread {
 	private static final String SUCCESS_CODE = "OK000";
 	private static String responseTextThread = "";
 	private static String textThread = "";
-
+	
 	@Autowired
 	private EndpointBean endpointBean;
 	
+	
 	@Bean
-   	public static UserService userService() {
-        	return new UserServiceImpl();
-    	}
+    public static UserService userService() {
+        return new UserServiceImpl();
+    }
+	
 
 	public static void main(String[] args) throws IOException {
+		
 		SpringApplication.run(LearningJavaApplication.class, args);
 
 		LOGGER.info("LearningJava - Iniciado servicio REST ...");
 		/** This class implements a simple HTTP server  */
 		HttpServer server = HttpServer.create(new InetSocketAddress(8080), 0);
 		String msgProcPeticion = "LearningJava - Inicia procesamiento de peticion ...";
-
+		
 		// logear usuario
 		server.createContext("/api/login", (exchange -> {
 			LOGGER.info(msgProcPeticion);
@@ -446,6 +315,10 @@ public class LearningJavaApplication extends Thread {
 		server.setExecutor(null);
 		server.start();
 		LOGGER.info("LearningJava - Server started on port 8080");
+
+
+
+
 	}
 
 	@Override
@@ -467,7 +340,7 @@ public class LearningJavaApplication extends Thread {
 
 			ResponseDTO response = null;
 
-			LOGGER.info("jsonArray.length(): " +  jsonArray.length());
+			LOGGER.info("jsonArray.length(): " + jsonArray.length());
 			for (int i = 0; i < jsonArray.length(); i++) {
 				userJson = new JSONObject(jsonArray.get(i).toString());
 				response = createUser(userJson.getString(user), userJson.getString(pass));
@@ -507,7 +380,7 @@ public class LearningJavaApplication extends Thread {
 			throw new RuntimeException(e);
 		}
 	}
-
+	
 	private static ResponseDTO login(String user, String password) {
 		UserService UserService = userService();
 		return UserService.login(user, password);
@@ -536,19 +409,3 @@ public class LearningJavaApplication extends Thread {
 	}
 
 }
-```
-
-8. A continuación, ejecutemos el proyecto y hagamos una prueba con los siguientes request:
-
-
-* [LearningJavaSpring.postman_collection.json](./Postman/LearningJava.postman_collection.json)
-
-
-
-
-# :books: Para aprender mas
-* [Spring Initializr](https://start.spring.io/)
-* [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
-* [Spring REST](https://spring.io/projects/spring-restdocs)
-* [Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Maven Repository](https://mvnrepository.com/)
