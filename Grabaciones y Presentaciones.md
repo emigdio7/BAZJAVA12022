@@ -45,7 +45,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - 📺 [Miércoles 21 Sep](https://drive.google.com/file/d/1kQVWJ0kY09br5V_ISLzt0SnRBBQ-zm2v/view?usp=sharing)
 - [Jueves 22 Sep/Java IX](https://drive.google.com/file/d/1YUK2ywFjnYR24BYMKlajvPteyKBAFjTc/view?usp=sharing)
 - 📺 [Grabacion Jueves 22 Sep](https://drive.google.com/file/d/11iq0_381LYM6XFGNL4mPl_NQlas5ABHB/view?usp=sharing)
-- [Viernes 23 Sep/Java X] - Misma presentación que viernes 9 sept
+- [Viernes 23 Sep/Java X](https://drive.google.com/file/d/1e_ZxYahEZwA77896Jc64ZeGClnF5H2tb/view?usp=sharing) - Misma presentación que viernes 9 sept
 - 📺 [Viernes 23 Sep](https://drive.google.com/file/d/1Pd_mKSqhxWo5Adl2TgbeFWH60X5GFOd-/view?usp=sharing)
 
 # Semana 5
@@ -55,20 +55,20 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - 📺 [Grabacion Martes 27 Sep](https://drive.google.com/file/d/1t7KhiguMD3TGJMxtc4FC5Q-c7KE4wlWO/view?usp=sharing)
 - [Miércoles 28 Sep/Spring Boot III](https://drive.google.com/drive/u/0/folders/1KzCAnYy7WbVWB-uPdE8uw8wwFkHkQXI6)
 - 📺 [Miércoles 28 Sep](https://drive.google.com/file/d/1Vdt2UeLo_s3zCqjV-yyBkH55Qil2y0Jn/view?usp=sharing)
-- [Jueves 29 Sep/Spring Boot IV]
+- [Jueves 29 Sep/Spring Boot IV](https://drive.google.com/file/d/1I3Ty9Goj1yjHZZb8FF5jCBhXwjAs2LeU/view?usp=sharing)
 - 📺 [Grabacion Jueves 29 Sep](https://drive.google.com/file/d/1eWJYoz-jaR24fNanWjRz-QF257kp-ZdF/view?usp=sharing)
-- [Viernes 30 Sep/Spring Boot V]
+- [Viernes 30 Sep/Spring Boot V](https://drive.google.com/file/d/1BIc90A2lzYfKO4BAdWWqqa9LgsTL5cTW/view?usp=sharing)
 - 📺 [Grabación Viernes 30 Sep](https://drive.google.com/file/d/1OgZ8th1IbPhtKmG_67pdy0qh4uJBFaOi/view?usp=sharing)
 
 # Semana 6
 - [Lunes 3 Oct/JUNIT I](https://drive.google.com/file/d/1M0gIkNLlt3Hqwa_vY1kO28n9PEq9e9uu/view?usp=sharing)
 - 📺 [Grabación Lunes 3 Oct](https://drive.google.com/file/d/140_3X9quAhETJtVNEh9V6JdYjj2bRzys/view?usp=sharing)
-- [Martes 4 Oct/JUNIT II](https://drive.google.com/file/d/1BXqv6d53dj0AEi1nRfnVHFk7c-Z_4LFk/view?usp=sharing)
+- [Martes 4 Oct/JUNIT II](https://drive.google.com/file/d/1eAknnDnKNi0wSvSaiDpCJDRqabEw-0O5/view?usp=sharing)
 - 📺 [Grabacion Martes 4 Oct](https://drive.google.com/file/d/1oydWaYPpsZEC_00MfGpBZ-xBphox-6Mg/view?usp=sharing)
-- [Miércoles 5 Oct/JUNIT III]
-- 📺 [Miércoles 5 Oct]
-- [Jueves 6 Oct/JUNIT IV]
-- 📺 [Grabacion Jueves 6 Oct]
-- [Viernes 7 Oct/JUNIT V]
+- [Miércoles 5 Oct/JUNIT III](https://drive.google.com/file/d/1IIT3BE5Z86ws8OM0h0CazVa68uf0pl0W/view?usp=sharing)
+- 📺 [Miércoles 5 Oct](https://drive.google.com/file/d/14fDVOoZa1UoezWdPf5LeUNiXU5GC8z0U/view?usp=sharing)
+- [Jueves 6 Oct/JUNIT IV](https://drive.google.com/file/d/1IIT3BE5Z86ws8OM0h0CazVa68uf0pl0W/view?usp=sharing)
+- 📺 [Grabacion Jueves 6 Oct](https://drive.google.com/file/d/1Xhy41odYPK5DJYvhHFxruX8op1LAX4R-/view?usp=sharing)
+- [Viernes 7 Oct/JUNIT V](https://drive.google.com/file/d/1TYfM5ZRYhKo92KkW0gO1JYLVJXx8Avtc/view?usp=sharing)
 - 📺 [Viernes 7 Oct]
 
